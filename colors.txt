@@ -1,0 +1,6 @@
+HEX # of colors I'd like to use
+#3b2a47
+#c08662
+#905041
+#4d66b2
+#8ea3c4
