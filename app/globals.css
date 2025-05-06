@@ -6,7 +6,7 @@ body {
 
 .center {
   display: grid;
-  place-items: center;
+  /*place-items: center;*/
   height: 100vh;
   background-image:url('/carina_nebula~orig.png');
   
@@ -16,6 +16,7 @@ body {
 }
 
 .distilo {
+  place-self: end;
   background-color:#3b2a47;
   grid-column:1;
   grid-row:1;
@@ -23,7 +24,16 @@ body {
   width:100%;
   height:50%;
   position:relative;
-  top:25%;
   display:inline-grid;
   grid-template-columns:50% 50%;
+}
+
+.carousel-container {
+  display: grid;
+  background-color: #3b2a47;
+  width:100%;
+  height:75%;
+  grid-auto-flow: column;
+  grid-column-gap: 2%;
+  place-content: stretch;
 }
