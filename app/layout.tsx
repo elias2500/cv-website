@@ -1,4 +1,10 @@
 import './globals.css'
+import {Funnel_Sans} from 'next/font/google'
+
+const funnel = Funnel_Sans({
+  subsets: ['latin'],
+  
+})
 
 export const metadata = {
   title: 'Next.js',
@@ -11,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={funnel.className}>
       <body>{children}</body>
     </html>
   )

@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "title":"Super Mario Remake",
+            "url":"https://github.com/sudowicked/SuperMario",
+            "icon":"/mario.png",
+            "description":"A 3D remake of the classic game, using UnrealEngine 4."
+        },
+        {
+            "title":"Sazam Like App",
+            "url":"https://github.com/elias2500/Shazam-Like-app",
+            "icon":"/khazam.png",
+            "description":"A music recognision app developed with Octave."
+        },
+        {
+            "title":"Django Thesis Website",
+            "url":"https://github.com/elias2500/escapeRoomSite",
+            "icon":"/thesis.png",
+            "description":"A website helping the end user design escape rooms."
+        }
+    ]
+}
