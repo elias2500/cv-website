@@ -6,33 +6,39 @@ body {
 
 .center {
   display: grid;
-  height: 100vh;
-  background-image:url('/carina_nebula~orig.png');
-  
+  height: auto;
+  background-image:url('/evening-sky.png');
+  grid-template-rows: 1fr 1fr auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 50% 85%;
+  background-position: 50% 90%;
 }
 
 .distilo {
-  place-self: end;
-  background-color:#3b2a47;
   grid-column:1;
-  grid-row:1;
-  z-index:1;
-  width:100%;
-  height:50%;
-  position:relative;
-  display:inline-grid;
+  grid-row:2;
+  background-color:#303446;
   grid-template-columns:50% 50%;
+  align-self: center;
 }
 
 .carousel-container {
   display: grid;
-  background-color: #3b2a47;
+  background-color:#292c3c;
   width:100%;
-  height:75%;
   grid-auto-flow: column;
   grid-column-gap: 2%;
   place-content: stretch;
+}
+
+p, ul{
+  color: #babbf1;
+}
+
+h2, h3{
+  color: #8caaee;
+}
+
+a{
+  color: #5c557f;
 }
