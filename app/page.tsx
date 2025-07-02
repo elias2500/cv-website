@@ -4,6 +4,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import CarouselCard from './carousel-card/carousel-card';
 import data from '../public/card-data.json';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const dataa = data.data
 console.log(dataa[0].icon);
@@ -16,6 +17,7 @@ export default function Page() {
     </head>
     <body>
       <Analytics/>
+      <SpeedInsights/>
       <div className="center">
         <div style={{alignSelf:'end', justifySelf:'center', transform:"translateY(50%)", zIndex:2}}>
           <PictureFrame />
