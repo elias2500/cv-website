@@ -2,7 +2,6 @@
 import PictureFrame from './pic-frame';
 /* import { relative } from 'path'; */
 import { Analytics } from '@vercel/analytics/next';
-import CarouselCard from './carousel-card/carousel-card';
 import data from '../public/card-data.json';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import SwiperCarousel from './carousel/carousel';
