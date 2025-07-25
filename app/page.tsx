@@ -57,11 +57,11 @@ export default function Page() {
             </div>
             <div className='place-self-center grid'>
               <h2 className='place-self-center text-2xl font-bold'>Education and Training</h2>
-              <h3 className='place-self-center text-xl font-bold'>Computer Science <a href="https://di.ionio.gr/" target='_blank'>@Ionian University</a></h3>
+              <h3 className='place-self-center text-xl font-bold'>Computer Science <a href="https://di.ionio.gr/">@Ionian University</a></h3>
               <p className='place-self-center'>01/09/2018 – 09/02/2024 Corfu, Greece</p>
-              <h3 className='place-self-center text-xl font-bold'>Python and Django Full Stack Web Developer Bootcamp <a href="https://www.udemy.com/certificate/UC-b70a76df-7faf-44a0-81c7-a541c9f25efc/" target='_blank'>@Udemy</a></h3>
+              <h3 className='place-self-center text-xl font-bold'>Python and Django Full Stack Web Developer Bootcamp <a href="https://www.udemy.com/certificate/UC-b70a76df-7faf-44a0-81c7-a541c9f25efc/">@Udemy</a></h3>
               <p className='place-self-center'>Acquired 17/12/2022</p>
-              <h3 className='place-self-center text-xl font-bold'>Responsive Web Design <a href="https://www.freecodecamp.org/certification/fcc04410a3b-11b6-4065-b5d6-b6af3517bf64/responsive-web-design" target='_blank'>@freeCodeCamp</a></h3>
+              <h3 className='place-self-center text-xl font-bold'>Responsive Web Design <a href="https://www.freecodecamp.org/certification/fcc04410a3b-11b6-4065-b5d6-b6af3517bf64/responsive-web-design">@freeCodeCamp</a></h3>
               <p className='place-self-center'>Acquired 25/03/2022</p>
             </div>
           </div>
