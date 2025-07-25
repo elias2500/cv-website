@@ -15,8 +15,7 @@ export default function CarouselCard({
 }) {
     return(
         <a 
-            href={url} 
-            target="_blank" 
+            href={url}  
             className="bg-[#414559] rounded-[20px] place-self-center min-w-2/3 grid grid-rows-1" 
             style={style}
         >
