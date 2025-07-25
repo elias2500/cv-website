@@ -26,7 +26,7 @@ export default function Page() {
           <div className="distilo grid">
             <div className='place-self-end grid'>
               <h2 className='place-self-center text-2xl font-bold'>Professional experience</h2>
-              <h3 className='place-self-center text-xl font-bold'>DevOps Support Engineer <a href="https://pressidium.com/" target='_blank'>@Pressidium</a></h3>
+              <h3 className='place-self-center text-xl font-bold'>DevOps Support Engineer <a href="https://pressidium.com/">@Pressidium</a></h3>
               <p className='place-self-center'>01/10/2022 – 30/10/2024</p>
               <p className='place-self-center'>What my day-to-day work for this company looked like:</p>
               <ul className="place-self-center text-center list-disc list-inside"> {/* Add "list-inside" class to fix dots not appearing at the start of each line */}
@@ -45,7 +45,7 @@ export default function Page() {
                 <li>While working for this company, I was a decisive factor in helping the
                 customer in this case study.</li>
               </ul>
-              <h3 className='place-self-center text-xl font-bold'>Web Developer <a href="https://tilderist.com/en/" target='_blank'>@Tilderist</a></h3>
+              <h3 className='place-self-center text-xl font-bold'>Web Developer <a href="https://tilderist.com/en/">@Tilderist</a></h3>
               <p className='place-self-center'>01/07/2022 – 31/08/2022</p>
               <ul className='place-self-center text-center list-inside list-disc'>
                 <li>Full-time internship working office hours.</li>
